@@ -73,6 +73,9 @@ function Form(props) {
             onBlur={handleBlur}
             onChange={handleChange}
             error={touched.name && errors.name}
+            InputLabelProps={{
+        style: { fontSize: "16px" } // O'zgartirilgan o'lchamdagi harf kichikligi
+      }}
           />
         </Grid>
         <Grid xs={4} item>

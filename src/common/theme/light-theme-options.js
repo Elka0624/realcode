@@ -97,9 +97,12 @@ export const lightThemeOptions = {
     MuiInputBase: {
       styleOverrides: {
         input: {
+          height: 'unset',
           '&::placeholder': {
             opacity: 1,
             color: text.secondary,
+            fontSize: '16px',
+            paddingBottom: '10px'
           },
         },
       },
