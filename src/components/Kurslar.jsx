@@ -265,7 +265,7 @@ export default function Kurslar() {
               </Box>
               <Box ml={2} sx={{display: 'flex', flexDirection: "column", rowGap: '40px'}}>
                 <Box>
-                  <Typography variant="h5">C# (csharp)</Typography>
+                  <Typography variant="h5">Flutter</Typography>
                   <Typography variant="subtitle1" color={{ color: "#667085" }}>
                     3 oy
                   </Typography>
